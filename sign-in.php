@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
     <link rel="stylesheet" href="./style/style.css">
     <title>NFTea Sign in</title>
 </head>
@@ -54,15 +56,18 @@
     </section>
     <!-- FOOTER -->
     <footer>
-        <div class="footer__container">
-            <p>NFTea 2022. All rights reserved</p>
-            <div class="social__media__icons">
-                <p>facebook</p>
-                <p>instagram</p>
-                <p>tiktok</p>
+            <div class="footer__container">
+                <p>NFTea 2022. All rights reserved</p>
+                <div class="list">
+					
+					<div class="social">
+						<a href="#"><i class=' bx bxl-facebook' ></i></a>
+						<a href="#"><i class=' bx bxl-instagram-alt' ></i></a>
+						<a href="#"><i class=' bx bxl-twitter' ></i></a>
+						<a href="#"><i class=' bx bxl-linkedin' ></i></a>
+					</div>
             </div>
-        </div>
-    </footer>
+        </footer>
     <script src="./script/app.js"></script>
 </body>
 

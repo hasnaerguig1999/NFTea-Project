@@ -226,7 +226,10 @@ header .burger__menu .burger__bar {
     color: white;
     font-size: 1.4em;
 }
-
+.bx{
+   background-color:  white;
+   color: #7C24D4;
+}
 /* ________Responsive__header________ */
 @media screen and (max-width: 768px) {
     .hero__section {
